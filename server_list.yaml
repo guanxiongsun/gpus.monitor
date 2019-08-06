@@ -14,3 +14,11 @@ servers:
   s3:
     hostname: c2
     host: 192.168.134.14
+  
+  s4:
+    hostname: dgxa
+    host: 192.168.134.88
+
+  s5:
+    hostname: dgxb
+    host: 192.168.134.93
