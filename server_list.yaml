@@ -22,3 +22,7 @@ servers:
   s5:
     hostname: dgxb
     host: 192.168.134.93
+ 
+  s6:
+    hostname: rtx2
+    host: 192.168.134.202

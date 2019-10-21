@@ -1,4 +1,4 @@
-USER=user
-PSWD=passwd
+USER=sun
+PSWD=guanxiong
 
-python -u list_gpus.py --user $USER --password $PSWD
+python -u ~/code/gpus.monitor/list_gpus.py --user $USER --password $PSWD
