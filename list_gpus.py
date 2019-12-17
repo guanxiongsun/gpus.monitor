@@ -34,7 +34,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     with open(args.server_list) as f:
-        config = yaml.load(f)
+        config = yaml.safe_load(f)
 
     config = EasyDict(config['servers'])
 
