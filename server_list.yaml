@@ -1,28 +1,26 @@
 servers:
-  s1:
-    hostname: rtx
-    host: 192.168.134.145
-    user: sun
-    password: passwd
-
   s2:
     hostname: c1
-    host: 192.168.134.12
+    host: 10.2.70.12
     user: sun
     password: passwd
 
   s3:
     hostname: c2
-    host: 192.168.134.14
+    host: 10.2.70.14
   
   s4:
     hostname: dgxa
-    host: 192.168.134.88
+    host: 10.2.70.60
 
   s5:
     hostname: dgxb
-    host: 192.168.134.65
- 
+    host: 10.2.70.32
+    
+  s7:
+    hostname: rtx
+    host: 10.2.70.54
   s6:
     hostname: rtx2
-    host: 192.168.134.202
+    host: 10.2.70.74
+  
